@@ -17,7 +17,7 @@ class HomeViewController: UIViewController {
     
     lazy var listPokemonCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-        let heightCell:CGFloat = (self.view.frame.width*0.8/2.1 - 11)
+        let heightCell:CGFloat = (self.view.frame.width*0.8/2 - 10)
         layout.itemSize = CGSize(width: heightCell, height: heightCell)
         layout.minimumInteritemSpacing = 10
         layout.minimumLineSpacing = 20

@@ -38,7 +38,7 @@ class FavoriteViewController: UIViewController {
     }
     
     private func setupUI() {
-        let leftButton = UIBarButtonItem(title: "ᐸ  Back", style: .plain, target: self, action: #selector(getHomeViewController))
+        let leftButton = UIBarButtonItem(title: "< Back", style: .plain, target: self, action: #selector(getHomeViewController))
         self.navigationItem.leftBarButtonItem = leftButton
         
         self.tableViewFavorites.dataSource = self
